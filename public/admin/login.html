@@ -1,11 +1,19 @@
+<!-- 登录拦截功能 -->
+<script src="/login/status"></script>
+<script>
+  if (!isLogin) location.herf = 'login.html'
+</script>
+
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="utf-8">
   <title>Sign in &laquo; Admin</title>
   <link rel="stylesheet" href="../assets/vendors/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="../assets/css/admin.css">
 </head>
+
 <body>
   <div class="login">
     <div class="login-wrap">
@@ -64,4 +72,5 @@
     });
   </script>
 </body>
+
 </html>
